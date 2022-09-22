@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+    height: 100%;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.sidebar {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #090;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #090;
+    opacity: 1;
+    background-color: #fff;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+#me {
+    border-radius: 50px;
+    background-color: #090;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#a {
+  margin-left: 250px;
+  color: #090;
+  font-size: 30px;
+}
+#b {
+  color: #090;
+  font-size: 30px;
+  margin-left: 300px;
+}
+#c {
+  color: #090;
+  font-size: 30px;
+  margin-left: 300px;
+}
+#c a {
+  color: #807e7e;
+}
+.btn-group {
+  cursor: pointer;
+  float: left;
+  margin-left: 350px;
+  width: 800px;
+  height: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-right: 0px;
+  font-size: 70px;
+}
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button {
+  background-color: #090;
+  width: 100px;
+  height: 60px;
+  border-radius: 70px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #ddd;
+  color: #090;
+}
+.footer {
+    padding: 40px 0;
+    background-color: #090;
+    height: 5px;
+    width: 100%;
+    max-width: 1089px;
+    padding-left: 260px;
+}
+.footer .copyright {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 100;
+    margin: -10px 8px;
+    text-align: center;
+}
