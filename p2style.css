@@ -98,6 +98,7 @@ border-radius: 70px;
 border: none;
 color: #fff;
 cursor: pointer;
+magin-bottom: 100px;
 }
 /* Add a background color on hover */
 .btn-group button:hover {
