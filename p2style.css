@@ -81,7 +81,7 @@ padding-bottom: 20px;
 padding-left: 30px;
 padding-top: 10px;
 padding-right: 0px;
-magin-bottom: 100px;
+magin-bottom: 200px;
 font-size: 70px;
 }
 /* Clear floats (clearfix hack) */
@@ -99,7 +99,7 @@ border-radius: 70px;
 border: none;
 color: #fff;
 cursor: pointer;
-magin-bottom: 100px;
+magin-bottom: 200px;
 }
 /* Add a background color on hover */
 .btn-group button:hover {
